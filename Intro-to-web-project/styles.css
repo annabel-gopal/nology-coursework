@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f5f1ec;
 }
 
 header {
@@ -27,6 +28,7 @@ header {
   padding: 0px 10px;
   display: flex;
   align-items: center;
+  color: #2d3034;
 }
 
 #icons {
