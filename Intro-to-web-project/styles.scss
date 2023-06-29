@@ -54,15 +54,16 @@ a {
 }
 
 .button {
-    border: 2px solid purple;
+    border: 2px solid $color-font;
     width: 25%;
     padding: 5px 15px 5px 15px;
     align-items: center;
     text-align: center;
+    font-weight: bold;
     font-size: 15px;
     font-family: $font-body;
-    color: $color-background;
-    background-color: $color-font;
+    color: $color-font; 
+    background-color: $color-background;
     border-radius: 5px;
 }
 

@@ -43,15 +43,16 @@ a {
 }
 
 .button {
-  border: 2px solid purple;
+  border: 2px solid #072746;
   width: 25%;
   padding: 5px 15px 5px 15px;
   align-items: center;
   text-align: center;
+  font-weight: bold;
   font-size: 15px;
   font-family: "Inconsolata", monospace;
-  color: #f5f1ec;
-  background-color: #072746;
+  color: #072746;
+  background-color: #f5f1ec;
   border-radius: 5px;
 }
 
