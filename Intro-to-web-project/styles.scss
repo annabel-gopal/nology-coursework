@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Inconsolata&family=Varela+Round&display=swap');
+
+$color-background: rgb(245, 241, 236);
+$color-heading: #07adfa;
+$color-font: #072746;
+
+$font-logo: "Bangers", cursive;
+$font-heading: "Varela Round", sans-serif;
+$font-body: 'Inconsolata', monospace;
+
+
 
 * {
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    background-color: rgb(245, 241, 236);
+    background-color: $color-background;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
 }
 
 header {
@@ -13,6 +29,41 @@ header {
     align-items: center;
     border: 2px solid red;
     padding: 20px 0px 20px 0px;
+}
+
+nav {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+a {
+    border: 2px solid green;
+}
+
+.logo {
+    width: 55%;
+    height: 60px;
+    font-family: $font-logo;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: $color-font;
+}
+
+.button {
+    border: 2px solid purple;
+    width: 25%;
+    padding: 5px 15px 5px 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: $font-body;
+    color: $color-background;
+    background-color: $color-font;
+    border-radius: 5px;
 }
 
 #phone-status {
