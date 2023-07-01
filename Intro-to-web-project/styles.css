@@ -1,104 +1,201 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Inconsolata&family=Varela+Round&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #f5f1ec;
-}
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f1ec;
+  }
 
-a:link,
+  a:link,
 a:visited {
-  text-decoration: none;
-}
+    text-decoration: none;
+  }
 
-header {
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid red;
-  padding: 20px 0px 20px 0px;
-}
+  header {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+  }
 
-nav {
-  border: 2px solid red;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 60px;
-}
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+  }
 
-a {
-  border: 2px solid green;
-}
+  h1 {
+    font-family: "Varela Round", sans-serif;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+    font-size: 1.5em;
+    color: #29a8daf5;
+    font-weight: bolder;
+  }
 
-h1 {
-  font-family: "Varela Round", sans-serif;
-  text-align: center;
-  padding: 0px 0px 15px 0px;
-  font-size: 1.5em;
-  color: #29a8daf5;
-  font-weight: bolder;
-}
+  h2, h3, h4 {
+    padding: 15px 0px 15px 0px;
+    color: #072746;
+    font-family: "Inconsolata", monospace;
+    text-align: center;
+    font-size: 1.3em;
+  }
 
-.logo {
-  width: 55%;
-  height: 60px;
-  font-family: "Bangers", cursive;
-  align-items: center;
-  text-align: center;
-  font-size: 50px;
-  color: #072746;
-}
+  h3 {
+    color: #29a8daf5;
+    font-size: 1.2em;
+  }
 
-.button {
-  border: 2px solid #072746;
-  width: 25%;
-  padding: 5px 15px 5px 15px;
-  align-items: center;
-  text-align: center;
-  font-weight: bold;
-  font-size: 15px;
-  font-family: "Inconsolata", monospace;
-  color: #072746;
-  background-color: #f5f1ec;
-  border-radius: 5px;
-}
+  h4 {
+    font-size: 0.9em;
+    font-weight: 400;
+  }
 
-.image-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px 0px 30px 0px;
-}
+  p {
+    height: 70px;
+    width: 200px;
+    font-size: 0.8em;
+    padding: 7px 0px 5px 0px;
+  }
 
-#phone-status {
-  border: 4px solid green;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
+  span {
+    font-weight: 900;
+  }
 
-#time {
-  border: 4px solid purple;
-  font-family: "Varela Round", sans-serif;
-  width: 33%;
-  font-size: 15px;
-  padding: 0px 10px;
-  display: flex;
-  align-items: center;
-  color: #2d3034;
-}
+  .logo {
+    width: 55%;
+    height: 60px;
+    font-family: "Bangers", cursive;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: #072746;
+  }
 
-#icons {
-  border: 4px solid blue;
-  padding: 0px 10px;
-  display: flex;
-  width: 33%;
-  justify-content: space-evenly;
-  align-items: center;
-}
+  .button {
+    border: 2px solid #072746;
+    width: 25%;
+    padding: 5px 15px 5px 15px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Inconsolata", monospace;
+    color: #072746;
+    background-color: #f5f1ec;
+    border-radius: 5px;
+  }
 
-#layout {
-  margin: 15px;
+  .button-two {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 2px solid #072746;
+    width: 50%;
+    padding: 10px 15px 10px 15px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Inconsolata", monospace;
+    color: #f5f1ec;
+    background-color: #072746;
+    border-radius: 5px;
+  }
+
+  .image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px 15px 0px;
+  }
+
+  .info {
+    display: block;
+    padding: 15px 0px, 15px 0px;
+  }
+
+  .ideas {
+    margin: 15px;
+    font-size: 1.15em;
+    font-family: "Inconsolata", monospace;
+    color: #072746;
+  }
+
+  a.footer {
+    width: 100%;
+    padding: 15px;
+    color: #072746;
+    background-color: #f7f5d8;
+    font-family: "Inconsolata", monospace;
+    font-size: larger;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #phone-status {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #time {
+    font-family: "Varela Round", sans-serif;
+    width: 33%;
+    font-size: 15px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    color: #2d3034;
+  }
+
+  #icons {
+    padding: 0px 10px;
+    display: flex;
+    width: 33%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #layout {
+    margin: 15px;
+  }
+
+  #lightbulb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #angry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #reading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #weightlifting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #extra-info {
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
